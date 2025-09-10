@@ -1,4 +1,4 @@
-#include <stdio.h> // this is for input and output functions
+#include <stdio.h>   // this is for input and output functions
 #include <stdbool.h> // this allows us to use true/false booleans
 
 // apparently this is the main file for the project
@@ -36,13 +36,23 @@ int main()
     printf("\ntemps are %.1f°\n", temps); // alt + 0176 to get °
 
     bool isOnline = true;
-    if (isOnline){
-        printf("True");
+    if (isOnline)
+    {
+        printf("True\n");
     }
-    else {
+    else
+    {
         printf("False");
     };
+
+    int x = 3;
+    int y = 8;
+    int z = 0;
+
+    z = x + y;
     
+    printf("%d", z);
+    // i mean i already know the rest so that fine from power to mod
 
     return 0; // return 0 indicates that the program ended successfully
 }
