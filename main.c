@@ -3,6 +3,7 @@
 // imports:
 #include "Lessons/dataTypesAndPrinting.h"
 #include "Lessons/userInput.h"
+#include "Lessons/mathFunctions.h"
 
 
 int main(void)

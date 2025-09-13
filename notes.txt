@@ -1,1 +1,1 @@
-use htrl shift b to compile into exe then type ./learningc in terminal
+use ctrl shift b to compile into exe then type ./learningc in terminal
