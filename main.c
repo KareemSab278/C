@@ -1,15 +1,15 @@
-#include <stdio.h>   // this is for input and output functions
- // this allows us to use true/false booleans
+#include <stdio.h>
 // imports:
 #include "Lessons/dataTypesAndPrinting.h"
 #include "Lessons/userInput.h"
 #include "Lessons/mathFunctions.h"
+#include "Lessons/calculator.h"
 
+// use ctrl shift b to compile into exe then type ./learningc in terminal
 
 int main(void)
 {
-    // dataTypesAndPrinting();
-    userInput();
-
-    return 0; // return 0 indicates that the program ended successfully
+    double result = calculator(26, 20, '+');
+    printf("%f", result);
+    return 0;
 };

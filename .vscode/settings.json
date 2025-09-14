@@ -1,6 +1,11 @@
 {
     "files.associations": {
         "*.embeddedhtml": "html",
-        "datatypesandprinting.h": "c"
+        "datatypesandprinting.h": "c",
+        "IF.C": "cpp",
+        "ifStatements.C": "cpp",
+        "calculator.C": "cpp",
+        "mathfunctions.h": "c",
+        "calculator.h": "c"
     }
 }

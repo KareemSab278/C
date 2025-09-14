@@ -4,7 +4,6 @@
         {
             "label": "Build C Project",
             "type": "shell",
-            // "command": "gcc -I Lessons *.c Lessons/*.c -o learningc",
             "command": "powershell -Command \"gcc -I Lessons @(Get-ChildItem -Recurse -Filter *.c).FullName -o learningc\"",
             "group": { "kind": "build", "isDefault": true },
             "problemMatcher": ["$gcc"]
