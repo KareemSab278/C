@@ -7,6 +7,8 @@
 #include "Lessons/loops.h"
 #include "Lessons/random.h"
 #include "Lessons/rockPaperScissors.h"
+#include "Lessons/arrays.h"
+
 // use ctrl shift b to compile into exe then type ./learningc in terminal
 void prototypeFunction(void);
 
@@ -18,7 +20,8 @@ int main(void)
     //prototypeFunction();
     // random();
     // loops();
-    rockPaperScissors();
+    // rockPaperScissors();
+    arrays();
 };
 
 void prototypeFunction(void){ // you can set the functuion in the bottom and then delcare the prototype function up top above the main function. This is standard practice.
