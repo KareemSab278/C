@@ -10,6 +10,8 @@
         "time.h": "c",
         "stdlib.h": "c",
         "loops.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "ternary.h": "c",
+        "rockpaperscissors.h": "c"
     }
 }

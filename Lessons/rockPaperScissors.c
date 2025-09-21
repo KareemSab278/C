@@ -31,6 +31,7 @@ void rockPaperScissors()
 
         if (strcmp(playerMove, "r\n") == 0 || strcmp(playerMove, "rock\n") == 0)
         {
+            // could have used toupper as well but thats fine anyway
             if (computerMove == paper)
             {
                 computerScore++;

@@ -8,22 +8,28 @@
 #include "Lessons/random.h"
 #include "Lessons/rockPaperScissors.h"
 #include "Lessons/arrays.h"
+#include "Lessons/ternary.h"
+#include "Lessons/typedef.h"
+#include "Lessons/enums.h"
 
 // use ctrl shift b to compile into exe then type ./learningc in terminal
 void prototypeFunction(void);
 
-int main(void)
-{
+int main(void) {
     // double result = calculator(26, 20, '+');
     // printf("%f", result);
     // return 0;
-    //prototypeFunction();
+    // prototypeFunction();
     // random();
     // loops();
     // rockPaperScissors();
-    arrays();
+    // arrays();
+    // ternaryOperators();
+    // typeDefAssignment();
+    enums();
 };
 
-void prototypeFunction(void){ // you can set the functuion in the bottom and then delcare the prototype function up top above the main function. This is standard practice.
+void prototypeFunction(void)
+{ // you can set the functuion in the bottom and then delcare the prototype function up top above the main function. This is standard practice.
     printf("i am a string");
 }

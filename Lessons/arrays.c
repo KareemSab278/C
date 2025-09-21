@@ -2,11 +2,28 @@
 
 void arraysBAsics();
 void userArrInput();
+void stringArrays();
 
 void arrays()
 {
     // arraysBAsics();
-    userArrInput();
+    // userArrInput();
+    stringArrays();
+}
+
+void stringArrays(){
+    // a string is just an arr of chars so hwo do you put a string in an arr? 
+    // you make it a mulktidimentional array
+    char strArr[][10] = {"uno", "doi", "trei", "patru", "meh"};
+    int arrLen = sizeof(strArr) / sizeof(strArr[0]);
+    for (int i = 0; i < arrLen - 1; i++)
+    {
+        printf("%s", strArr[i]);
+        printf(", ");
+    }
+    printf("%s", strArr[arrLen - 1]); // s for str lol not
+
+
 }
 
 void arraysBAsics()
