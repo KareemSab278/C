@@ -1,16 +1,6 @@
 #include <stdio.h>
 // imports:
-#include "Lessons/dataTypesAndPrinting.h"
-#include "Lessons/userInput.h"
-#include "Lessons/mathFunctions.h"
-#include "Lessons/calculator.h"
-#include "Lessons/loops.h"
-#include "Lessons/random.h"
-#include "Lessons/rockPaperScissors.h"
-#include "Lessons/arrays.h"
-#include "Lessons/ternary.h"
-#include "Lessons/typedef.h"
-#include "Lessons/enums.h"
+#include "Lessons/Lessons.h"
 
 // use ctrl shift b to compile into exe then type ./learningc in terminal
 void prototypeFunction(void);
@@ -26,7 +16,8 @@ int main(void) {
     // arrays();
     // ternaryOperators();
     // typeDefAssignment();
-    enums();
+    // enums();
+    structs(); 
 };
 
 void prototypeFunction(void)
