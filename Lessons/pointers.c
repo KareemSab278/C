@@ -13,3 +13,10 @@ void pointers(){
 int increment(int* val){
     return (*val)++;
 };
+
+
+
+// so we start off with declaring a var: int number = 1;
+// then if we want to manipulate it later on in memory then we can assign a pointer: int* pNumber = &number;
+// if we want to print the number tyhjen we will have to find it in memory: printf("%d", (*pNumber));
+// thats it for now. i love pointers already...
