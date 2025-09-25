@@ -12,6 +12,7 @@
         "loops.h": "c",
         "stdio.h": "c",
         "ternary.h": "c",
-        "rockpaperscissors.h": "c"
+        "rockpaperscissors.h": "c",
+        "lessons.h": "c"
     }
 }

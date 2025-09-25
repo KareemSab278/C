@@ -3,7 +3,6 @@
 #include "Lessons/Lessons.h"
 
 // use ctrl shift b to compile into exe then type ./learningc in terminal
-void prototypeFunction(void);
 
 int main(void) {
     // double result = calculator(26, 20, '+');
@@ -17,10 +16,6 @@ int main(void) {
     // ternaryOperators();
     // typeDefAssignment();
     // enums();
-    structs(); 
+    // structs(); 
+    pointers();
 };
-
-void prototypeFunction(void)
-{ // you can set the functuion in the bottom and then delcare the prototype function up top above the main function. This is standard practice.
-    printf("i am a string");
-}
