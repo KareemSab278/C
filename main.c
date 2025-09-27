@@ -17,5 +17,7 @@ int main(void) {
     // typeDefAssignment();
     // enums();
     // structs(); 
-    pointers();
+    // pointers();
+    // file();
+    mallocInC();
 };

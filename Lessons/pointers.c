@@ -4,6 +4,8 @@ void pointers(){
     int address = 123;
 
     int *pAddress = &address;
+    // you also dont need to use a pointer. you can just do &address nistead and use it anywhere. 
+    // pointers help reduce memory
 
     printf("%p", pAddress);
     printf("\n%d", (*pAddress));

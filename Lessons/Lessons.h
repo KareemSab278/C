@@ -12,3 +12,5 @@
 #include "enums.h"
 #include "structs.h"
 #include "pointers.h"
+#include "file.h"
+#include "mallocInC.h"
