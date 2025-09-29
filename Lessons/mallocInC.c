@@ -13,6 +13,13 @@ void mallocInC(){ // yes yes ik dont use keywords lol
     
                              // 1 byte * 10 idiots = 10 bytes
     int *idiotResults = malloc(sizeof(int) * idiots);
+    // returns 3232535, 7656, 9638963, 323244 <- garbage memory
+
+    // calloc is basically yhe same but the values in memory are automatically intiailly set to 0.
+    // calloc: int *idiotResults = calloc(idiots, sizeof(int)); <- the data, the size of what data it is. safer too.
+    // returns: 0, 0, 0, 0...
+
+    
     // idiotresults in the stack points to memory allocated in the heap
     // you must also always check if the pointer is pointing to memory by checking null. else you get a segmentation fault (annoying).
     if (idiotResults == NULL){
