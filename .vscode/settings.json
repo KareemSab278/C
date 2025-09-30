@@ -13,6 +13,7 @@
         "stdio.h": "c",
         "ternary.h": "c",
         "rockpaperscissors.h": "c",
-        "lessons.h": "c"
+        "lessons.h": "c",
+        "mallocinc.h": "c"
     }
 }

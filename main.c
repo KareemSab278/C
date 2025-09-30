@@ -19,5 +19,6 @@ int main(void) {
     // structs(); 
     // pointers();
     // file();
-    mallocInC();
+    // mallocInC();
+    reallocInC();
 };
