@@ -9,7 +9,7 @@ typedef struct
     char color[20];
     long long horsepower; // for really big ahh nums (this is 8 bytes or 64 bits). double an int.
     bool isFourWheel;
-} Car;
+}   Car;
 
 void structs()
 {

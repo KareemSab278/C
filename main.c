@@ -1,6 +1,7 @@
 #include <stdio.h>
 // imports:
 #include "Lessons/Lessons.h"
+#include "Projects/Projects.h"
 
 // use ctrl shift b to compile into exe then type ./learningc in terminal
 
@@ -20,5 +21,6 @@ int main(void) {
     // pointers();
     // file();
     // mallocInC();
-    reallocInC();
+    // reallocInC();
+    clockProject();
 };
