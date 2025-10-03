@@ -14,6 +14,8 @@
         "ternary.h": "c",
         "rockpaperscissors.h": "c",
         "lessons.h": "c",
-        "mallocinc.h": "c"
+        "mallocinc.h": "c",
+        "unistd.h": "c",
+        "winsock2.h": "c"
     }
 }
